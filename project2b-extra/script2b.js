@@ -24,7 +24,7 @@ function changeHeight() {
         bar.style.backgroundColor = "red";
     }
 
-    //żeby nie dublować kodu możemy style, które są stałe (dla bar > && < 50% wys. strony) wyciągnąć poza instrukcję if else
+    //żeby nie dublować kodu możemy wyciągnąć poza instrukcję if else - style, które są stałe (dla bar > && < 50% wys. strony) 
     bar.style.height = size + "px";
     bar.style.width = 100 + "%";
     bar.style.position = "fixed";
