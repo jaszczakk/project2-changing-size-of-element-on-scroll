@@ -3,7 +3,7 @@ document.body.style.height = 10000 + "px";
 const bar = document.createElement('div');
 document.body.appendChild(bar);
 
-let grow = true; //flaga, służąca jako przełącznik w sytuacji gry wysokość paska(bar) jest większa / mniejsza niż 50% strony
+let grow = true; //flaga, służąca jako przełącznik w sytuacji gdy wysokość paska(bar) jest większa / mniejsza niż 50% strony
 
 let size = 100;
 
